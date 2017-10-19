@@ -32,7 +32,7 @@ function exportToCsv(tweetsArr) {
    })
    .join('\n')
    .replace(/(^\[)|(\]$)/mg, '');
- fs.writeFile("./file.csv", csv, function(err) {
+ fs.writeFile("./relevantTweets.csv", csv, function(err) {
      if(err) {
          return console.log('exporting Error: ',err);
      }
