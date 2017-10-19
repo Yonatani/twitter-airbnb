@@ -1,0 +1,21 @@
+{
+  "name": "twitter-bot-airbnb",
+  "version": "1.0.0",
+  "description": "first task for guesty",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yonatan itzhaky",
+  "license": "",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "moment": "^2.19.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
